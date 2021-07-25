@@ -1,4 +1,4 @@
-//This code is also known as the "Artificial Intelligence and Cloud". What? Don't get it? You have to (re)watch the advertisement: https://youtu.be/tX3y_gzFyyA
+//This code is also known as the "Artificial Intelligence and Cloud". What? Don't get it? You have to (re)watch the advertisement: https://youtu.be/cwrDlWCdoEo
 #include <CapacitiveSensor.h>
 //THRESHOLD VARIABLE HERE
 long threshold = 100; //Threshold value for the capacitive sensor, may need to be edited for specific case
