@@ -27,7 +27,7 @@ void setup() {
 
 void loop() {
   DigiMouse.update(); //Spam update everywhere!
-  long pad1 = cs1.capacitiveSensor(60); //get value of sensor1. 80 is an arbitrary value (obtained after repeated testing, you may need to do your own test)
+  long pad1 = cs1.capacitiveSensor(60); //get value of sensor1. 60 is an arbitrary value (obtained after repeated testing, you may need to do your own test)
   DigiMouse.update();
   long pad2 = cs2.capacitiveSensor(60); //get value of sensor2
   DigiMouse.update();
