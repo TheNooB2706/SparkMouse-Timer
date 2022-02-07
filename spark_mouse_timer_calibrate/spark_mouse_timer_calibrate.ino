@@ -16,8 +16,8 @@ void setup() {
 }
 
 void loop() {
-  long pad1 = cs1.capacitiveSensor(50); //get value of sensor1. 20 is an arbitrary value
-  long pad2 = cs2.capacitiveSensor(50); //get value of sensor2
+  long pad1 = cs1.capacitiveSensor(60); //get value of sensor1. 60 is an arbitrary value
+  long pad2 = cs2.capacitiveSensor(60); //get value of sensor2
   DigiKeyboard.print("Sensor 1: ");
   DigiKeyboard.print(pad1);
   DigiKeyboard.print("; Sensor 2: ");
